@@ -1,0 +1,388 @@
+
+html{
+  display: flex;
+  justify-content: center;
+}
+
+/*------------------------------------------------- my body --------------------------------------------------------------*/
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0px;
+  margin: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url('https://media.meteojob.com/theme/2.3/images/bg-clouds.png'),linear-gradient(to top,#6cc2eb,#1299d8);
+  background-color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+main{
+  margin-top: 30px;
+}
+/*------------------------------------- debut du formulaire ---------------------------------------------*/
+header img{
+  display: flex;
+  justify-content: center;
+  margin-left: 185px;
+  margin-bottom: 20px;
+  height: 60px;
+}
+
+.meteo-job{
+  margin-bottom: 21px;
+  text-align: center;
+  color: #fff;
+  font-family: 'Poiret One';font-size: 20px;
+  font-weight: bold;
+}
+
+fieldset{
+  background-color: #fff;
+  box-shadow: 1px 1px 1px 1px 1px;
+}
+/*------------------------------------------------ champs de renseignement ----------------------------------------------*/
+
+.formu {
+  display: flex;
+  font-size: 18px;
+}
+.formu {
+  display: flex;
+}
+
+.formu > div {
+  
+  margin: 10px;
+  font-size: 9px;
+}
+
+#prenom{
+  height: 26px;
+  width: 255px;
+  margin-right: 1px;
+
+}
+
+
+h1{
+  
+  font-size: 13px;
+  color: #163559;
+}
+
+#nom{
+  height: 26px;
+  width: 255px;
+}
+
+.mail > div {
+  display: flex;
+  flex-direction: column;
+  font-size: 30px;
+  margin: 7px;
+  margin-top: -7px;
+}
+
+#mail{
+  height: 26px;
+  width: 535px;
+}
+
+.password > div {
+  display: flex;
+  flex-direction: column;
+  font-size: 30px;
+  margin: 7px;
+}
+
+#password{
+   height: 26px;
+   width: 535px;
+}
+
+/*------------------------------------------------ fa-fa-eye ----------------------------------------------*/
+div img{
+
+  width: 15px;
+  height: 15px;
+  position: relative;
+  margin-left: 95%;
+  bottom: 24px;
+}
+
+/*------------------------------------------------ fin de fa-fa-eye ----------------------------------------------*/
+.poste > div {
+  display: flex;
+  flex-direction: column;
+  font-size: 30px;
+  margin: 7px;
+  margin-top: -14px;
+}
+
+#poste{
+  height: 26px;
+  width: 535px;   
+}
+
+.lieu > div {
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+     margin: 7px;
+
+}
+
+#lieu{
+  height: 26px;
+  width: 535px;
+}
+
+/*------------------------------------------------ fin des champs de renseignement ----------------------------------------------*/
+
+/*----------------------------------- les bouton des différents contrats-CDI-CDD-INTERIM-ETC ---------------------*/
+
+.tc{
+  margin-top: 19px;
+  font-size: 12px;
+  margin: 7px;
+  color: #163559;
+  margin-top: 12px;
+}
+
+
+.CDI {
+   background-color: #1e90ff;
+  width: 125px;
+  height: 50px;
+  font-size: 14px;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  transition-duration: 0.3s;
+  cursor: pointer;
+  margin: 1px;
+  color: #fff;
+}
+
+.CDD {
+  background-color: #dcdcdc;
+   width: 125px;
+  height: 50px;
+  font-size: 14px; 
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  transition-duration: 0.3s;
+  cursor: pointer;
+  margin: 1px;
+  color: #696969;
+}
+
+.indep {
+  background-color: #dcdcdc;
+  width: 125px;
+  height: 50px;
+  font-size: 14px;
+  text-align: center;
+  border: none;
+  word-wrap: break-word;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  transition-duration: 0.3s;
+  cursor: pointer;
+  margin: 1px;
+  color: #696969;
+}
+
+
+.int {
+  background-color: #dcdcdc;
+  width: 125px;
+  height: 50px;
+  font-size: 14px;
+   border: none;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  transition-duration: 0.3s;
+  cursor: pointer;
+  margin: 1px;
+  color: #696969;
+}
+
+
+.stage {
+  background-color: #dcdcdc;
+  width: 125px;
+  height: 50px;
+  font-size: 14px;
+   border: none;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  transition-duration: 0.3s;
+  cursor: pointer;
+  margin: 1px;
+  color: #696969;
+}
+ 
+ .alter{
+  background-color: #dcdcdc;  
+  width: 125px;  
+  height: 50px;
+  font-size: 14px;
+  text-align: center;
+  border: none;
+  text-decoration: none;
+  display: inline-block;
+  transition-duration: 0.3s;
+  cursor: pointer;
+  margin: 1px;
+  color: #696969;
+ }
+
+ .button-plus{
+  background-color: none;
+  width: 130px;  
+  height: 50px;
+  font-size: 12px;
+  text-align: center;
+  border: none;
+  text-decoration: none;
+  background-color: white;
+  display: inline-block;
+  transition-duration: 0.3s;
+  cursor: pointer;
+  margin: 1px;
+  color: #163559;
+}
+
+
+/*------------------------------------- les boutons pour les differents type de contrat ---------------------------*/
+.contrat1{
+  display: flex;
+  font-size: 10px;
+} 
+
+ .contrat1 > div {
+  margin: 6px;
+  font-size: 9px;
+}
+
+.contrat2{
+    display: flex;
+    font-size: 10px; 
+}
+ .contrat2 > div {
+    margin: 6px;
+    font-size: 12px;
+}
+/*--------------------------------------------------- premier partie des pour les boutons d-acceptation et les conditions  ---------------------------*/
+
+
+main{
+  margin-bottom: 35px;
+}
+form{
+  margin-bottom: 70px;
+}
+
+
+p{
+  font-size: 14px;
+  margin: 7px;
+  color: #163559;
+  font-weight: bold;
+}
+
+p input{
+  background-color: dodgerblue;
+  width: 125px;
+  height: 50px;
+  font-size: 14px;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  transition-duration: 0.3s;
+  cursor: pointer;
+  margin: 1px;
+  color: #fff;
+  font-size: 18px;
+}
+
+a{
+  color: #163559;
+  font-weight: bold;
+}
+
+.accepte {
+  display: flex;
+  margin-top: 27px;
+  color: #163559;
+  font-size: 8px; 
+}
+
+.button-non {
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+  border: none;
+  background-color: #b9c2ca;
+  border-top-right-radius:7px;
+  border-bottom-right-radius:7px;
+  padding: 8px 8px;
+  justify-content: space-between;
+  margin-top: 10px;
+  width: 50px;
+  font-size: 16px;
+}
+
+.button-oui {
+  color: #f0f4f7;
+  text-decoration: none;
+  text-align: center;
+  border: none;
+  background-color: #f0f4f7;
+  border-top-left-radius:7px;
+  border-bottom-left-radius:7px;
+  padding: 8px 8px;
+  justify-content: space-between;
+  margin-top: 10px;
+  margin-left:30px;
+  width: 50px;
+  font-size: 16px;
+}
+
+.fin{
+  margin: auto;
+  padding: 12px;
+  width: 30%;
+  height: 10px;
+  margin-top: 3px;
+  text-align: center;
+  border: none; 
+  }
+
+  .fin input{
+    width: 90%;
+  }
+
+/*--------------------------------------------fin des boutons et conditions-----------------------------------------*/
+
+/*--------------------------------------------my Media Query-----------------------------------------*/
+@media (max-device-width:768px)
+(orientation:landscape){
+ html{
+    -webkit-text-size-adjust: 100%;
+     -ms-text-size-adjust:100%: 100%;{
+}
+
+@media screen and (max-width: 720px){
+  }
+@media screen and (min-width: 150px){
+}
+/*--------------------------------------------fin de my Media Query-ymii-----------------------------------------*/
